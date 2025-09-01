@@ -15,11 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: "Hello. I'm Yao Xiong."
 email: 'yaoxiong@ucsb.edu'
-description: "I am a postdoctoral researcher at the University of California, Santa Barbara, working in the group of Prof. Glenn Fredrickson. My research focuses on multiscale modeling and simulation of active and responsive soft matter systems. I employ approaches such as dissipative particle dynamics (DPD), field-theoretic simulations (FTS), and finite element methods (FEM) to investigate a wide range of thermodynamic and dynamic phenomena in polymers, gels, and biomaterials.
-
-I am passionate about advancing computational frameworks that bridge molecular, mesoscopic, and continuum scales to uncover new design principles for soft materials.
-
-Feel free to reach out—I’m always happy to connect and discuss science!"
+description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jamigibbs.github.io/phantom" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: 'jamigibbs'
