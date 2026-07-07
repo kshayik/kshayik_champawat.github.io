@@ -72,3 +72,18 @@ kramdown:
 
 
 include: ['_pages']
+
+
+
+
+
+# Site settings
+title: Kshayik Champawat
+email: ksha.champ2004@gmail.com
+description: Mechanical Engineering Student Portfolio
+url: "https://kshayik.github.io"
+
+# Social profiles (Delete or uncomment the ones you need)
+github_username: kshayik
+# linkedin_username: your_linkedin
+# twitter_username: your_twitter
