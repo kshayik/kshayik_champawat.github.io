@@ -1,4 +1,24 @@
+---
+layout: default
+---
+
 <header>
     <h1>Kshayik Champawat</h1>
     <p>Mechanical Engineering Student at BITS Pilani, Goa. Welcome to my portfolio.</p>
 </header>
+
+<section class="tiles">
+    {% for post in site.posts %}
+        <article class="style{{ forloop.index0 | modulo: 6 | plus: 1 }}">
+            <span class="image">
+                <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" />
+            </span>
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <h2>{{ post.title }}</h2>
+                <div class="content">
+                    <p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+                </div>
+            </a>
+        </article>
+    {% endfor %}
+</section>
